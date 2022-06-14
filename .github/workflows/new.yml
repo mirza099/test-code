@@ -17,8 +17,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-  builds:
-    runs-on: ubuntu-latest
+  build:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
