@@ -28,16 +28,13 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
-      - run: echo
-      - task: SonarSource.sonarqube.15B84CA1-B62F-4A2A-A403-89B77A063157.SonarQubePrepare@4
-        displayName: "Prepare analysis on SonarQube"                    
-        inputs:
-         SonarQube: 'SonarQube Service Connection'
-         projectKey: ProjectKey
-         projectName: ProjectName
+        run: #include <iostream.h>  
+          #include<conio.h>  
+            void main() {  
+            clrscr();  
+             cout << "Welcome to C++ Programming.";   
+               getch();  
+                }    
           
           
           
