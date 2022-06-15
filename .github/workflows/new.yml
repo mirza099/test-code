@@ -15,14 +15,10 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    version: '3'
+  build:
+  runs-on: ubuntu-latest
 
-
-services:
-
-  beersnob_database:
+   beersnob_database:
     container_name: beersnob_database
     hostname: beersnob_database
     image: postgres
