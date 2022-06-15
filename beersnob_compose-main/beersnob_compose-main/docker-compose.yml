@@ -54,3 +54,4 @@ services:
       restart: always
       depends_on:
         - beersnob_database
+        
